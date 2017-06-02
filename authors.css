@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	text-align: center;
 	width: 100%;
+	background-color: #F8F8F8;
 }
 
 h1 {
@@ -27,11 +28,21 @@ h1 a:hover {
 h2 {
 	font-size: 42px;
 	font-family: 'Courier New', serif;
+	text-align: left;
+	margin: 70px;
+	padding: 0px;
 }
 
 .main {
-	margin: 30px;
-  	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 5px auto;
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: black;
+}
+
+.nav {
 }
 
 p {
@@ -39,11 +50,6 @@ p {
 	padding: 0px;
 }
 
-.info {
-	text-align: left;
-	margin: 75px;
-
-}
 
 #footer {
 	padding: 30px;
@@ -51,9 +57,11 @@ p {
 }
 
 #info {
-	border: 1px solid #000;
-  	text-align: center;
+
+  	text-align: left;
   	padding: 30px;
+	font-size: 23px;
+	margin: 40px;
 }
 
 ul {
@@ -65,8 +73,9 @@ ul {
 }
 
 .staff {
-	margin: 0;
+	margin: 70px;
 	padding: 0;
+	text-align: left;
 }
 
 li{
@@ -84,4 +93,3 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-}
