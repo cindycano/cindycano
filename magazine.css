@@ -76,7 +76,8 @@ p {
 }
 
 .covers {
-	text-align: left;
+	float: left;
+	text-align: center;
 }
 
 .covers a{
