@@ -65,7 +65,7 @@ p {
 }
 
 .info {
-	text-align: left;
+	text-align: center;
 }
 
 .info a{
@@ -75,11 +75,11 @@ p {
 	font-size: 20px;
 }
 
-.cover {
+.covers {
 	text-align: left;
 }
 
-.cover a{
+.covers a{
     	text-decoration: none;
 	color: black;
 	margin: 70px;
