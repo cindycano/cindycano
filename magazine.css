@@ -43,6 +43,13 @@ h2 {
 	background-color: black;
 }
 
+.inside {
+	background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
+	background-color: #F8F8F8;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .nav {
 }
 
@@ -59,16 +66,19 @@ p {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	background: none;
 }
 
 .info {
 	text-align: center;
+	background: none;
 }
 
 .covers {
 	text-align: center;
 	margin: 0px 0px 50px 35px;
 	float: left;
+	background: none;
 }
 
 .covers a{
