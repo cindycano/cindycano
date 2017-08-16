@@ -5,6 +5,34 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="icon" href="https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-0/p526x296/18671069_1290267877717550_1869400919851375998_n.jpg?oh=42db4f799d83075a15a5842a762d06f8&oe=59B6BEAA">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+</style>
 	</head>
 
 	<body>
@@ -26,11 +54,16 @@
 			<div class="info">
 				<h2 id="g">Bright Ideas, Sour Critics.</h2>
 				<p>Please excuse our mess. We are still under construction.</p>
-				<iframe src='https://emory-my.sharepoint.com/personal/ckcano_emory_edu/_layouts/15/WopiFrame.aspx?sourcedoc={4cad065d-2499-4700-bbb3-ac4555a8af17}&action=embedview&wdAr=1.7777777777777777&wdEaa=1' 
-				width='962px' height='565px' frameborder='0'>This is an embedded 
-				<a target='_blank' href='https://office.com'>Microsoft Office</a> 
-				presentation, powered by <a target='_blank' 
-				href='https://office.com/webapps'>Office Online</a>.</iframe>
+<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+<div id="slider">
+<figure>
+<img src="austin-fireworks.jpg" alt>
+<img src="taj-mahal_copy.jpg" alt>
+<img src="ibiza.jpg" alt>
+<img src="ankor-wat.jpg" alt>
+<img src="austin-fireworks.jpg" alt>
+</figure>
+</div>
 			</div>
 		</div>
 		<p id="footer">&copy; The Lemon</p>
