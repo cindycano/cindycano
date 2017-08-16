@@ -5,6 +5,20 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="icon" href="https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-0/p526x296/18671069_1290267877717550_1869400919851375998_n.jpg?oh=42db4f799d83075a15a5842a762d06f8&oe=59B6BEAA">
+<style>
+
+.fadein { position:relative; height:332px; width:500px; margin: auto;}
+.fadein img { position:absolute; left:0; top:0; margin: auto;}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.fadein img:gt(0)').hide();
+	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
 	</head>
 
 	<body>
@@ -26,6 +40,11 @@
 			<div class="info">
 				<h2 id="g">Bright Ideas, Sour Critics.</h2>
 				<p>Please excuse our mess. We are still under construction.</p>
+				<div class="fadein">
+<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg">
+<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg">
+<img src="https://farm3.static.flickr.com/2531/4121218751_ac8bf49d5d.jpg">
+</div>
 			</div>
 		</div>
 		<p id="footer">&copy; The Lemon</p>
