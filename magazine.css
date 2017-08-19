@@ -47,6 +47,11 @@ h2 {
 	vertical-align: top;
 }
 
+.info{
+	background-color: rgba(157, 158, 147, 0.6);
+	color: white;
+}
+
 .nav {
 	vertical-align: top;
 }
