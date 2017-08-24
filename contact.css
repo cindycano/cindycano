@@ -29,7 +29,7 @@ h2 {
 	font-size: 42px;
 	font-family: 'Garamond', serif;
 	text-align: left;
-	padding: 0px;
+	margin: 0px;
 }
 
 .main {
@@ -45,6 +45,8 @@ h2 {
 p {
 	font-size: 1rem;	
 	padding: 0px;
+
+	
 }
 
 
@@ -68,6 +70,7 @@ ul {
 	text-align: left;
 }
 
+
 .media {
 	margin: 0px 0px 0px 35px;
 	padding: 0px;
@@ -75,7 +78,9 @@ ul {
 }
 
 .media a{
+
 	font-family: Palatino, 'Palatino Linotype', serif;
+
 }
 
 .feedback {
