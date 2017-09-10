@@ -1,0 +1,95 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+nav a{
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+nav {
+    	background-color: black;
+	color: white;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+    color: yellow;
+ }
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  	font-weight: 300;
+	color: black;
+	font-family: 'Garamond', serif;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+	background-color: gray;
+	padding: 3rem;
+}
+
+.jumbotron .btn{
+	color: white;
+	background-color: black;
+	border: black;
+}
+
+.jumbotron .btn:hover{
+	color: black;
+	background-color: yellow;
+	border: black;
+}
+
+
+p {
+	font-size: 1rem;
+	padding: 0px;
+}
+
+
+.covers {
+	text-align: center;
+	margin: 0px 0px 50px 35px;
+	float: left;
+	background: none;
+}
+
+.covers a{
+    	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+	background-color: black;
+	color: white;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
