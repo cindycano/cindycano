@@ -1,0 +1,105 @@
+body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/homepage.png);
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.logo {
+	background-color: black;
+	height: auto;
+	}
+
+.logo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+.logo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.logo a:hover {
+    color: yellow;
+ }
+
+.division {
+
+	background-color: yellow;
+	height: 15px;
+}
+
+p {
+        font-size: 1rem;
+        padding: 0px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+
+.slogan  {
+	color: yellow;
+	background-color: black;
+	font-family: 'Garamond', serif;
+}
+
+.row {
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.row a {
+	color: white;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+        background-color: black;
+        color: white;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
