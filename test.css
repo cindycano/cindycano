@@ -87,7 +87,7 @@ p {
         font-size: 20px;
 }
 
-footer {
+#footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
         background-color: black;
@@ -96,6 +96,6 @@ footer {
 	width: 100%;
 }
 
-footer p {
+#footer p {
   margin-bottom: .25rem;
 }
