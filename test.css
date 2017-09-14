@@ -92,6 +92,7 @@ footer {
   padding-bottom: 3rem;
         background-color: black;
         color: white;
+	position: relative;
 }
 
 footer p {
