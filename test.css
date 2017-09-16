@@ -1,5 +1,8 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
 body {
-        height: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
@@ -7,7 +10,7 @@ body {
         background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
         background-attachment: fixed;
         background-size: cover;
-	padding-bottom: 70px;
+	margin-bottom: 70px;
 }
 
 
@@ -88,12 +91,13 @@ p {
         font-size: 20px;
 }
 
-#footer {
-	padding: 30px;
-	font-size: .75rem;
+footer {
 	position: absolute;
 	margin-bottom: 0;
 	left: 0;
 	right: 0;
-	background: none;
+	background-color: black;
+	color: white;
+	height: 70px;
+	width: 100%;
 }
