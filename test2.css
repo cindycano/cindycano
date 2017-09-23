@@ -89,8 +89,32 @@ p {
 	padding-bottom: 3rem;
 }
 
-.row a {
+.sec a {
 	color: white;
+	text-decoration: none;
+}
+
+.sec{
+	width: 33.333%;
+	margin-bottom: 2rem;
+	border: 0;
+	padding: .75rem;
+}
+
+.sec a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.link a{
+	text-decoration: none;
+	color: white;
+}
+
+.sec .btn:hover{
+        color: black;
+        background-color: yellow;
+        border: black;
 }
 
 footer {
