@@ -1,159 +1,130 @@
+
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-	background-color: #F8F8F8;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/homepage.png);
+        background-attachment: fixed;
+        background-size: cover;
 }
 
-h1 {
-	font-size: 56px;
-  	font-family: Palatino, 'Palatino Linotype', serif;
-}
-
-h1 a:link{ 
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:hover {
-	color: #000;
-}
-
-h2 {
-	font-size: 42px;
-	font-family: 'Garamond', serif;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-}
-.title {
-	font-size: 42px;
-	font-family: 'Garamond', serif;
-	text-align: left;
-	margin: 15px;
-	padding: 0px;
-}
-
-.container{
-	height:100%;
-	position: relative;
-}
-
-#g {
-	font-size: 82px;
-	font-family: 'Garamond', serif;
-	text-align: center;
-	margin: 35px 35px 0px 35px;
-	padding: 0px;
-}
-
-.main {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	border: 1px solid #000000;
-	text-align: center;
+.logo {
 	background-color: black;
-}
+	height: auto;
+	}
 
-.inside > * {
-    display: inline-block;
-	
-}
-
-.nav {
-}
-
-p {
-	font-size: 1rem;
-	padding: 0px;
-}
-
-
-.footer {
-	padding: 30px;
-	font-size: 0.75rem;
-	position: absolute;
-	height: 30px;
-	background: none;
-	width: 100%;
-	vertical-align: bottom;
-}
-
-#info {
-
-  	text-align: center;
-  	padding: 0px;
-	font-size: 23px;
-	margin: 40px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.staff {
-	margin: 70px;
-	padding: 0;
-	text-align: left;
-}
-
-li{
-	float:left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.logo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+.logo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.logo a:hover {
+    color: yellow;
+ }
+
+.division {
+
+	background-color: yellow;
+	height: 15px;
 }
 
-.inside {
-font-family: 'Garamond', serif;
-width: 100%;
+p {
+        font-size: 1rem;
+        padding: 0px;
 }
 
-.covers {
-	text-align: center;
-	margin: 0px 0px 50px 35px;
-	float: left;
-	background: none;
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
-.covers a{
-    	text-decoration: none;
-	color: black;
-	font-size: 20px;
+.mySlides {
+    display: none;
 }
 
-.right {
-	text-align: center;
-	margin: 0px 35px 50px 0px;
-	float: right;
-	background: none;
-	overflow: hidden;
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-.right a{
-    	text-decoration: none;
-	color: black;
-	font-size: 20px;
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+
+.slogan  {
+	color: yellow;
+	background-color: black;
+}
+
+.row {
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.sec a {
+	color: white;
+	text-decoration: none;
+}
+
+.sec{
+	width: 33.333%;
+	margin-bottom: 2rem;
+	border: 0;
+	padding: .75rem;
+}
+
+.sec a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.link a{
+	text-decoration: none;
+	color: white;
+}
+
+.sec .btn:hover{
+        color: black;
+        background-color: yellow;
+        border: black;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+        background-color: black;
+        color: white;
+	font-family: 'Garamond', serif;
+}
+
+footer p {
+  margin-bottom: .25rem;
+	font-family: 'Garamond', serif;
 }
