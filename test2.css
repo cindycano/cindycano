@@ -31,6 +31,24 @@ body {
     color: yellow;
  }
 
+@include media-breakpoint-up(sm) {
+  .logo h1{
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .logo h1{
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .logo h1{
+    font-size: 28px;
+  }
+}
+
 .division {
 
 	background-color: yellow;
