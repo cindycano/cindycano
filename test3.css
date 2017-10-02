@@ -24,6 +24,10 @@ body {
         vertical-align: middle;
 }
 
+.jumbotron p{
+	font-size: 20px;
+}
+
 .color {
 	background-color: yellow;
 	color: black;
