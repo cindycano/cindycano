@@ -7,11 +7,6 @@ body {
 	font-family: 'Garamond', serif;
 }
 
-.jumbotron-heading {
-	font-family: 'Garamond', serif;
-	font-size: 45px;
-}
-
 .logo {
 	background-color: black;
 	height: auto;
@@ -29,40 +24,27 @@ body {
         vertical-align: middle;
 }
 
-/* Change the link color to #111 (black) on hover */
-.logo a:hover {
-    color: yellow;
- }
+.color {
+	background-color: yellow;
+	color: black;
+	font-family: 'Garamond', serif;
+}
 
 p {
-	font-size: 1.25rem;	
+	font-size: 1rem;
 	padding: 0px;
 	font-family: 'Garamond', serif;
-
-	
 }
 
-.color1{
-	font-family: 'Garamond', serif;
 
-}
 
-.color2{
-	background-color: gray;
+.staff {
+	padding-left: 75px;
+	padding-bottom: 35px;
+	text-align: left;
 	font-family: 'Garamond', serif;
 }
 
-.color2 a{
-	text-decoration: none;
-	color: white;
-	font-family: 'Garamond', serif;
-}
-
-.color2 a:hover{
-	text-decoration: none;
-	color: yellow;
-	font-family: 'Garamond', serif;
-}
 
 footer {
   padding-top: 3rem;
@@ -74,6 +56,4 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-font-size: 15px;
-	font-family: 'Garamond', serif;
 }
