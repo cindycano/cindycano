@@ -4,104 +4,76 @@ body {
 	text-align: center;
 	width: 100%;
 	background-color: #F8F8F8;
-}
-
-h1 {
-	font-size: 56px;
-  	font-family: Palatino, 'Palatino Linotype', serif;
-}
-
-h1 a:link{ 
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:hover {
-	color: #000;
-}
-
-h2 {
-	font-size: 42px;
 	font-family: 'Garamond', serif;
-	text-align: left;
-	margin: 0px;
 }
 
-.main {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	border: 1px solid #000000;
-	text-align: center;
+.jumbotron-heading {
+	font-family: 'Garamond', serif;
+	font-size: 45px;
+}
+
+.logo {
 	background-color: black;
+	height: auto;
+	}
+
+.logo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+
+.logo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
 
+/* Change the link color to #111 (black) on hover */
+.logo a:hover {
+    color: yellow;
+ }
 
 p {
-	font-size: 1rem;	
+	font-size: 1.25rem;	
 	padding: 0px;
+	font-family: 'Garamond', serif;
 
 	
 }
 
-
-#footer {
-	padding: 30px;
-	font-size: 0.75rem;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.writer {
-	margin: 35px 0px 0px 35px;
-	padding: 0px;
-	text-align: left;
-}
-
-
-.media {
-	margin: 0px 0px 0px 35px;
-	padding: 0px;
-	text-align: left;
-}
-
-.media a{
-
-	font-family: Palatino, 'Palatino Linotype', serif;
+.color1{
+	font-family: 'Garamond', serif;
 
 }
 
-.feedback {
-	text-align: left;
-	margin: 0px 0px 0px 35px;
-	padding: 0px;
+.color2{
+	background-color: gray;
+	font-family: 'Garamond', serif;
 }
 
-li{
-	float:left;
+.color2 a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Garamond', serif;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.color2 a:hover{
+	text-decoration: none;
+	color: yellow;
+	font-family: 'Garamond', serif;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+        background-color: black;
+        color: white;
+	font-family: 'Garamond', serif;
+}
+
+footer p {
+  margin-bottom: .25rem;
+font-size: 15px;
+	font-family: 'Garamond', serif;
 }
