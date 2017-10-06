@@ -1,113 +1,101 @@
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-	background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	padding-bottom: 70px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
+        background-attachment: fixed;
+        background-size: cover;
 }
 
-h1 {
-	font-size: 56px;
-  	font-family: Palatino, 'Palatino Linotype', serif;
-}
 
-h1 a:link{ 
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:hover {
-	color: #000;
-}
-
-h2 {
-	font-size: 42px;
-	font-family: 'Garamond', serif;
-	text-align: center;
-	margin: 15px;
-	padding: 0px;
-}
-
-.main {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	border: 1px solid #000000;
-	text-align: center;
+.logo {
 	background-color: black;
-	vertical-align: top;
+	height: auto;
+	}
+
+.logo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+.logo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
 
-.info{
-	background-color: rgba(157, 158, 147, 0.6);
-	color: white;
+
+/* Change the link color to #111 (black) on hover */
+.logo a:hover {
+    color: yellow;
+ }
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+
 }
 
-.nav {
-	vertical-align: top;
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
+
+.jumbotron-heading {
+        font-weight: 300;
+        color: black;
+        font-family: 'Garamond', serif;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+        background-color: gray;
+        padding: 3rem;
+}
+
+.jumbotron .btn{
+        color: white;
+        background-color: black;
+        border: black;
+}
+
+.jumbotron .btn:hover{
+        color: black;
+        background-color: yellow;
+        border: black;
+}
+
 
 p {
-	font-size: 1rem;
-	padding: 0px;
+        font-size: 1rem;
+        padding: 0px;
 }
 
-
-#footer {
-	padding: 30px;
-	font-size: 0.75rem;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: none;
-}
 
 .covers {
-	text-align: center;
-	margin: 0px 0px 50px 35px;
-	float: left;
-	background: none;
+        text-align: center;
+        margin: 0px 0px 50px 35px;
+        float: left;
+        background: none;
 }
 
 .covers a{
-    	text-decoration: none;
-	color: black;
-	font-size: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    vertical-align: top;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+        background-color: black;
+        color: white;
 }
 
-li{
-	float:left;
+footer p {
+  margin-bottom: .25rem;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
- }
