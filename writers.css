@@ -2,28 +2,12 @@ body {
 	height: 100%;
 	margin: 0;
 	text-align: center;
+	padding: 0;
 	width: 100%;
-	background-color: #F8F8F8;
+
 }
 
-h1 {
-	font-size: 56px;
-  	font-family: Palatino, 'Palatino Linotype', serif;
-}
 
-h1 a:link{ 
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:hover {
-	color: #000;
-}
 
 h2 {
 	font-size: 42px;
@@ -41,35 +25,51 @@ h2 {
 	padding: 0px;
 }
 
-.main {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	border: 1px solid #000000;
-	text-align: center;
+.inside{
+	background-color: #F8F8F8;
+}
+
+.logo {
 	background-color: black;
+	height: auto;
+	}
+
+.logo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+
+.logo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
 
-.nav {
+/* Change the link color to #111 (black) on hover */
+.logo a:hover {
+    color: yellow;
+ }
+
+
+
+.desc{
+	margin-top: 63px;
+	margin-bottom: 53px;
 }
 
+.desc h1{
+	text-align: center;
+	font-family: 'Garamond', serif;
+	font-size: 52px;
+}
+
+.desc p{
+	font-size: 22px;
+}
 p {
 	font-size: 1rem;
 	padding: 0px;
-}
-
-
-#footer {
-	padding: 30px;
-	font-size: 0.75rem;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
 
 .staff {
@@ -81,20 +81,17 @@ ul {
 .staff img {
   float: left;
   margin: 0px 15px 0px 0px;
- }
-
-li{
-	float:left;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+        background-color: black;
+        color: white;
+	font-family: 'Garamond', serif;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+footer p {
+  margin-bottom: .25rem;
+	font-family: 'Garamond', serif;
+}
