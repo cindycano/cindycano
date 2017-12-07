@@ -4,7 +4,7 @@ body {
         padding: 0;
         text-align: center;
         width: 100%;
-        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/20623714_1358344130909924_2021373760_o.jpg);
+        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/web1.jpg);
         background-attachment: fixed;
         background-size: cover;
 }
@@ -31,6 +31,12 @@ body {
 .logo a:hover {
     color: yellow;
  }
+
+.division {
+
+	background-color: yellow;
+	height: 15px;
+}
 
 .jumbotron {
   padding-top: 3rem;
