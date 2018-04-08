@@ -1,11 +1,10 @@
-
 body {
         height: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
         width: 100%;
-                background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/web1.jpg);
+        background-image: url(https://static1.squarespace.com/static/55fc0004e4b069a519961e2d/t/55fc301ae4b01342ae9212a1/1442590746805/);
         background-attachment: fixed;
         background-size: cover;
 
@@ -20,34 +19,48 @@ body {
 .logo h1{
 	color: yellow;
 	font-family: 'Garamond', serif;
-        background-color: black;
 	}
 .logo a{
         color: white;
         font-family: 'Merriweather', serif;
         font-size: 15px;
         vertical-align: middle;
-        background-color: black;
 }
 
 
 /* Change the link color to #111 (black) on hover */
 .logo a:hover {
     color: yellow;
-        background-color: black;
+
  }
 
-.division {
-
+.mlogo {
 	background-color: black;
-	height: 15px;
+	height: auto;
+	}
+
+.mlogo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+.mlogo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
+
+
+/* Change the link color to #111 (black) on hover */
+.mlogo a:hover {
+    color: yellow;
+
+ }
 
 .jumbotron {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   margin-bottom: 0;
-        background-color: black;
 
 }
 
@@ -66,20 +79,21 @@ body {
   max-width: 40rem;
         background-color: black;
         padding: 3rem;
+	padding-bottom: 0rem;
 }
 
-.jumbotron .btn{
+.col .btn:hover{
         color: white;
         background-color: black;
-        border: black;
         font-family: 'Garamond', serif;
+	border-color: black;
 }
 
-.jumbotron .btn:hover{
+.col .btn{
         color: black;
         background-color: yellow;
-        border: black;
-        font-family: 'Garamond', serif;
+        border-color: black;
+        font-family: 'Garamond', sans-serif;
 }
 
 
@@ -90,28 +104,34 @@ p {
 }
 
 .row {
-	background-color: black;
 	color: white;
-	padding-top: 3rem;
 	padding-bottom: 3rem;
-	padding-right: 5%;
-	padding-left: 5%;
+	padding-right: 0%;
+	padding-left: 0%;
 }
 
-.sec a {
-	color: white;
+#top{
+	padding-top: 3rem;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#yes{
+	padding-left: 0%;
+}
+
+.col h2{
+	color: yellow;
+        font-family: 'Garamond', serif;
+}
+
+.col a {
+	color: black;
 	text-decoration: none;
         font-family: 'Garamond', serif;
 }
 
-.sec{
-	width: 30%;
-	margin-bottom: 2rem;
-	border: 0;
-	padding: .75rem;
-}
-
-.sec a:hover {
+.col a:hover {
 	color: yellow;
 	text-decoration: none;
         font-family: 'Garamond', serif;
@@ -123,10 +143,8 @@ p {
         font-family: 'Garamond', serif;
 }
 
-.sec .btn:hover{
-        color: black;
-        background-color: yellow;
-        border: black;
+.mobile, .mlogo{
+	display: none;
 }
 
 footer {
@@ -134,12 +152,69 @@ footer {
   padding-bottom: 3rem;
         background-color: black;
         color: white;
+	margin-top: 5rem;
 }
+
 
 footer p {
   margin-bottom: .25rem;
         font-family: 'Garamond', serif;
 }
 
+* {box-sizing:border-box}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
+
+.mySlides {
+    display: none;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px){
+  .logo h1{
+    font-size:1.90rem;
+  }
+
+	.normal, .logo{
+		display: none;
+	}
+
+	.mobile, .mlogo{
+		display: initial;
+	}
+
+	.slideshow-container{
+		padding-top: 0rem;
+	}
+
+	footer{
+		margin-top: 0rem;
+	}
+
+	
+}
+
