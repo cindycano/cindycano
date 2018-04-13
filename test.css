@@ -116,8 +116,17 @@ p {
 	padding-right: 0%;
 }
 
+#mtop{
+	padding-top: 2rem;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 1rem;
+}
+
 #yes{
 	padding-left: 0%;
+	padding-right: 0%;
+
 }
 
 .col h2{
@@ -194,10 +203,7 @@ footer p {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 850px){
-  .logo h1{
-    font-size:1.90rem;
-  }
+@media only screen and (max-width:850px){
 
 	.normal, .logo{
 		display: none;
@@ -217,4 +223,3 @@ footer p {
 
 	
 }
-
