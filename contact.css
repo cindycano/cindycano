@@ -1,27 +1,25 @@
 body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
-	background-color: #F8F8F8;
-	font-family: 'Garamond', serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+                background-image: url(https://static1.squarespace.com/static/55fc0004e4b069a519961e2d/t/55fc301ae4b01342ae9212a1/1442590746805/);
+        background-attachment: fixed;
+        background-size: cover;
+
 }
 
-.jumbotron-heading {
-	font-family: 'Garamond', serif;
-	font-size: 45px;
-}
 
 .logo {
 	background-color: black;
 	height: auto;
-	}
+}
 
 .logo h1{
 	color: yellow;
 	font-family: 'Garamond', serif;
 	}
-
 .logo a{
         color: white;
         font-family: 'Merriweather', serif;
@@ -29,39 +27,160 @@ body {
         vertical-align: middle;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 .logo a:hover {
     color: yellow;
+        background-color: black;
  }
 
-p {
-	font-size: 1.25rem;	
-	padding: 0px;
-	font-family: 'Garamond', serif;
 
-	
-}
+.mlogo {
+	background-color: black;
+	height: auto;
+	}
 
-.color1{
-	font-family: 'Garamond', serif;
-
-}
-
-.color2{
-	background-color: gray;
-	font-family: 'Garamond', serif;
-}
-
-.color2 a{
-	text-decoration: none;
-	color: white;
-	font-family: 'Garamond', serif;
-}
-
-.color2 a:hover{
-	text-decoration: none;
+.mlogo h1{
 	color: yellow;
 	font-family: 'Garamond', serif;
+	}
+.mlogo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.mlogo a:hover {
+    color: yellow;
+
+ }
+
+
+.jumbotron {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
+	color:gray;
+
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+	color:gray;
+}
+
+.jumbotron-heading {
+        font-weight: 300;
+        font-family: 'Garamond', serif;
+
+}
+
+.jumbotron h2{
+	color: white;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+        padding: 3rem;
+	padding-bottom: 0rem;
+	padding-top: 0rem;
+	color: gray;
+	margin-bottom: 0rem;
+	margin-top:0rem;
+}
+
+.row h2{
+        font-weight: 300;
+        color: yellow;
+        font-family: 'Garamond', serif;
+}
+ 
+
+
+
+p {
+        font-size: 1rem;
+        padding: 0px;
+	color: silver;
+}
+
+.row {
+	color: white;
+	padding-bottom: 3rem;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+
+#top{
+	padding-top: 3rem;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#mtop{
+	padding-top: 2rem;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 1rem;
+}
+
+.col a {
+	color: yellow;
+	text-decoration: none;
+}
+
+.col a:hover {
+	color: yellow;
+}
+
+.col-4 a {
+	color: yellow;
+	text-decoration: none;
+}
+
+.col-4 a:hover {
+	color: yellow;
+}
+
+.link a{
+	text-decoration: none;
+	color: white;
+        font-family: 'Garamond', serif;
+}
+
+.desc{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.desc h1{
+	text-align: center;
+	font-family: 'Garamond', serif;
+	font-size: 52px;
+	color:yellow;
+}
+
+.desc p{
+	font-size: 22px;
+}
+
+p {
+	font-size: 1rem;
+	padding: 0px;
+}
+
+.staff {
+	margin: 35px;
+	padding: 0;
+	text-align: left;
+}
+
+.staff img {
+  float: left;
+  margin: 0px 15px 0px 0px;
 }
 
 footer {
@@ -69,11 +188,48 @@ footer {
   padding-bottom: 3rem;
         background-color: black;
         color: white;
-	font-family: 'Garamond', serif;
+	margin-top: 5rem;
 }
+
 
 footer p {
   margin-bottom: .25rem;
-font-size: 15px;
-	font-family: 'Garamond', serif;
+        font-family: 'Garamond', serif;
+}
+
+.mobile, .mlogo{
+	display: none;
+}
+
+
+@media only screen and (max-width:850px){
+
+	.logo{
+		display: none;
+	}
+
+	.mlogo{
+		display: initial;
+	}
+
+	.slideshow-container{
+		padding-top: 0rem;
+	}
+
+	footer{
+		margin-top: 0rem;
+	}
+
+	
+}
+
+@media only screen and (max-width:1000px){
+
+	.normal{
+		display:none;
+	}
+
+	.mobile{
+		display: initial;
+	}
 }
