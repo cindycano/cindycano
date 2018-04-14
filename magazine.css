@@ -4,9 +4,10 @@ body {
         padding: 0;
         text-align: center;
         width: 100%;
-        background-image: url(https://raw.githubusercontent.com/cindycano/cindycano/master/web1.jpg);
+                background-image: url(https://static1.squarespace.com/static/55fc0004e4b069a519961e2d/t/55fc301ae4b01342ae9212a1/1442590746805/);
         background-attachment: fixed;
         background-size: cover;
+
 }
 
 
@@ -30,23 +31,42 @@ body {
 /* Change the link color to #111 (black) on hover */
 .logo a:hover {
     color: yellow;
+        background-color: black;
  }
 
-.division {
+.mlogo {
+	background-color: black;
+	height: auto;
+	}
 
-	background-color: yellow;
-	height: 15px;
+.mlogo h1{
+	color: yellow;
+	font-family: 'Garamond', serif;
+	}
+.mlogo a{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        vertical-align: middle;
 }
 
+
+/* Change the link color to #111 (black) on hover */
+.mlogo a:hover {
+    color: yellow;
+
+ }
+
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   margin-bottom: 0;
 
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
+        background-color: black;
 }
 
 .jumbotron-heading {
@@ -57,51 +77,128 @@ body {
 
 .jumbotron .container {
   max-width: 40rem;
-        background-color: gray;
-        padding: 3rem;
-}
-
-.jumbotron .btn{
-        color: white;
         background-color: black;
-        border: black;
+        padding: 3rem;
+	padding-bottom: 0rem;
+	padding-top: 0rem;
 }
 
 .jumbotron .btn:hover{
+        color: white;
+        background-color: black;
+        font-family: 'Garamond', serif;
+	border-color: black;
+}
+
+.jumbotron .btn{
         color: black;
         background-color: yellow;
-        border: black;
+        border-color: black;
+        font-family: 'Garamond', sans-serif;
 }
 
 
 p {
         font-size: 1rem;
         padding: 0px;
+	color: silver;
+}
+
+.row {
+	color: white;
+	padding-bottom: 3rem;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+
+#top{
+	padding-top: 3rem;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#mtop{
+	padding-top: 2rem;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 1rem;
+}
+
+#yes{
+	padding-left: 0%;
 }
 
 
-.covers {
-        text-align: center;
-        margin: 0px 0px 50px 35px;
-        float: left;
-        background: none;
+.col a {
+	color: yellow;
+	text-decoration: none;
+        font-family: 'Garamond', serif;
 }
 
-.covers a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
+.col a:hover {
+	color: white;
+	text-decoration: none;
+        font-family: 'Garamond', serif;
 }
+
+.link a{
+	text-decoration: none;
+	color: white;
+        font-family: 'Garamond', serif;
+}
+
+.col h2{
+	color: yellow;
+        font-family: 'Garamond', serif;
+}
+
+.mobile, .mlogo{
+	display: none;
+}
+
 
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
         background-color: black;
         color: white;
+	margin-top: 5rem;
 }
+
 
 footer p {
   margin-bottom: .25rem;
+        font-family: 'Garamond', serif;
 }
 
+@media only screen and (max-width:850px){
 
+	.logo{
+		display: none;
+	}
+
+	.mlogo{
+		display: initial;
+	}
+
+	.slideshow-container{
+		padding-top: 0rem;
+	}
+
+	footer{
+		margin-top: 0rem;
+	}
+
+	
+}
+
+@media only screen and (max-width:1000px){
+
+	.normal{
+		display: none;
+	}
+
+	.mobile{
+		display: initial;
+	}
+}
